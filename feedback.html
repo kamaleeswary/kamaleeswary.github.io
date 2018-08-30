@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <tile>Feedback</tile>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            body{
+                background-color: lightblue;
+                text-align: center;
+            }
+            h3{
+                color:navy;
+                text-align: center;
+            }.block label {
+    display: inline-block;
+    width: 150px;}
+    @media screen and (min-width: 700px) {
+        body{
+                background-color: lightblue;
+                text-align: center;
+            }
+            h3{
+                color:navy;
+                text-align: center;
+            }.block label {
+    display: inline-block;
+    width: 150px;}
+    }
+    @media screen and (max-width: 1500px)
+    {
+        body{
+                background-color: lightblue;
+                text-align: center;
+            }
+            h3{
+                color:navy;
+                text-align: center;
+            }.block label {
+    display: inline-block;
+    width: 150px;}
+    } 
+        </style>
+    </head>
+    <body > <form action="index.html" method="get">
+            <div class='one-column'>
+       
+                    <div class="imagebg"></div>
+                    <div class="row " style="margin-top: 50px">
+                        <div class="col-md-6 col-md-offset-3 form-container">
+                            <h3>Feedback</h3>
+                            <p>
+                                Please provide your feedback below:
+                            </p>
+                            <form role="form" method="post" id="reused_form">
+                                <div class="row">
+                                    <div class="col-sm-12 form-group">
+                                    <label>How do you rate your overall experience?</label>
+                                    <p>
+                                        <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                        Bad
+                                        </label>
+                    
+                                        <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        Average
+                                        </label>
+                    
+                                        <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="good" >
+                                        Good
+                                        </label>
+                                    </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 form-group">
+                                        <label for="comments">
+                                            Comments:</label>
+                                        <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <div class="col-sm-6 form-group">
+                                        <label for="name">
+                                            Your Name:</label>
+                                        <input type="text" class="form-control" id="name" name="name" required="required">
+                                    </div></div>
+                                    <div class="block">
+                                    <div class="col-sm-6 form-group">
+                                        <label for="email">
+                                            Email:</label>
+                                        <input type="email" class="form-control" id="email" name="email" required="required">
+                                    </div></div>
+                                </div>
+                    
+                                            <div class="row">
+                                    <div class="col-sm-12 form-group">
+                                        <button type="submit" class="btn btn-lg btn-warning btn-block" >Post </button>
+                                    </div>
+                                </div>
+                                <div>
+                                        <input type="submit" value="Back">
+                        </div>
+                    </div>
+                    </div>
+                   
+                            
+                        </form>
+    </body>
+
+</html>
