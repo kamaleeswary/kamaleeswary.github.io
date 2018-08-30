@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><title>First Assignment</title>
+    <head><title>Job Site</title>
       <!-- This will set the viewport of the page, which will give the browser instructions on how to control the page's dimensions and scaling. -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel='stylesheet' href='assets/css/style1.css' />
+       
         <!-- Linking font awesome CDN -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <!-- Linking font google fonts CDN -->
         <link href='https://fonts.googleapis.com/css?family=Open Sans|Righteous' rel='stylesheet' />
-        <script src='assets/js/main.js'></script>
+        <link rel='stylesheet' href='assets/css/style1.css' />
+         <script src='assets/js/main.js'></script>
     </head>
     <body>
         <header>
@@ -35,28 +36,11 @@
 
             </nav>
         </header>
-        <article id="pic"
-             >
+        <article id="pic" >
                         <img class="mySlides" src="jobsite3.jpeg" style="width:100%" >
-                        <img class="mySlides" src="amcat3.jpeg" style="width:100%">
-                        <img class="mySlides" src="cocubes.jpeg" style="width:100%">
-                          
-            </article> <script>
-                    var myIndex = 0;
-                    carousel();
                     
-                    function carousel() {
-                        var i;
-                        var x = document.getElementsByClassName("mySlides");
-                        for (i = 0; i < x.length; i++) {
-                           x[i].style.display = "none";  
-                        }
-                        myIndex++;
-                        if (myIndex > x.length) {myIndex = 1}    
-                        x[myIndex-1].style.display = "block";  
-                        setTimeout(carousel, 2000); // Change image every 2 seconds
-                    }
-                    </script>
+                          
+            </article>
 
         <section class='content' id="1">
                 <div class='features'>
@@ -120,22 +104,20 @@
                               </div>
                               <!--Learning-->
                               <section class='content' id="3">
-                                    <div class='infoBox' id="pic">
+                                    <div class='infoBox' >
                                                 
-                                            <a href="https://www.w3schools.com/html/"><h3>
-                                                    HTML
-                                            </h3></a>
-                                            <div class='desc'id="pic">
-                                                   <center>
-                                                        <img src="htmlc.jpeg">  
-                                                   </center>                   </div>
+                                           
+                                            <div class='desc'>
+                                                    <a href="https://www.w3schools.com/html/"> <img src="htmlc.jpeg"> </a>
+                                                     
+                                                                </div>
                                                 </div>    
                                             </div>
-                                        <div class='infoBox' id="pic" >
+                                        <div class='infoBox'  >
                                                 
                                                 <a href="https://www.tutorialspoint.com/java/"><h3>JAVA</h3></a>
                                                 <div class='desc' id="pic">
-                                                        <center><img src="java1.jpeg">  </center>                   </div>
+                                                    <img src="java1.jpeg" id="pic">                    </div>
                                                     </div>    
                                                 </div>
                                               </div>
@@ -143,7 +125,7 @@
                                               
                                                 <a href="https://www.lynda.com/"> <h3> LEARN</h3></a>
                                                 <div class='desc' id="pic">
-                                                        <center><img src="learn1.jpeg">  </center>                   </div>
+                                                        <img src="learn1.jpeg">        </div>
                                                     </div>                       
                                                 </div>
                                               </div>

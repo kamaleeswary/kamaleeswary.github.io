@@ -1,5 +1,4 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=Open Sans|Righteous');
+
 body, ul, h3{
     margin: 0px;
     font-family: 'Open Sans';
@@ -15,8 +14,8 @@ h3{
 }
 
 header{
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;;
+    position: fixed;
     top: 0;
 }
 
