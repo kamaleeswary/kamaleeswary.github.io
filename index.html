@@ -4,13 +4,13 @@
       <!-- This will set the viewport of the page, which will give the browser instructions on how to control the page's dimensions and scaling. -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-       
-        <!-- Linking font awesome CDN -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <!-- Linking font google fonts CDN -->
-        <link href='https://fonts.googleapis.com/css?family=Open Sans|Righteous' rel='stylesheet' />
+        <link rel="shortcut icon" href="logo3.ico" type="image/x.icon" sizes="16x16">
         <link rel='stylesheet' href='assets/css/style1.css' />
-         <script src='assets/js/main.js'></script>
+        <!-- Linking font awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <!-- Linking font google fonts CDN -->
+        <link href='https://fonts.googleapis.com/css?family=OpenSans/Righteous' rel='stylesheet'/>
+        <script src='assets/js/main.js'></script>
     </head>
     <body>
         <header>
@@ -26,149 +26,89 @@
                 <div class='logo'>Job Site</div>
                 <ul id='menu'>
                     <li><a href='#'>Home</a></li>
-                    <li><a href='#1'>About</a></li>
-                    <li><a href='#2'>Login/Signup</a></li>
-                    <li><a href='#3'>Features</a></li>    
-                    <li><a href='#4'>Feedback</a></li>
-                    <li><a href='#5'>Contact Us</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#features'>Features</a></li>    
+                    <li><a href='#feedback'>Feedback</a></li>
+                    <li><a href='#contactus'>Contact Us</a></li>
+                    <li><a href='#login'>Login</a></li>
                 </ul>
                 <!-- Menu Ends -->
-
             </nav>
         </header>
-        <article id="pic" >
-                        <img class="mySlides" src="jobsite3.jpeg" style="width:100%" >
-                    
+        <div class="heroimg">
+                        <img  src="jobsite3.jpeg" alt="" style="max-width:100%" >
+                       
                           
-            </article>
-
-        <section class='content' id="1">
+        </div> 
+        <section class='content' id="about">
                 <div class='features'>
                     <div class='infoBox'>
                     
                       <h3>Amcat</h3>
                       <div class='desc'>
-                            Aspiring Minds Computer Adaptive Test(AMCAT) is a test to evaluate a candidates skills such as aptitude skills,reasoning skills,technical skills and mental ability skills. AMCAT is an adaptive test, are you familiar with adaptive test? if not, now you will get to know.An adaptive test gets harder and easier based on the answer given to the previous question. If you answer a question correct, you get a tougher question and if you answer a question wrong the next question becomes easier and your score depends on level of questions you attempt correctly.                      </div>
+                            Aspiring Minds Computer Adaptive Test(AMCAT) is a test to evaluate a candidates skills such as aptitude skills,reasoning skills,technical skills and mental ability skills.</div>
                     </div>
                     <div class='infoBox'>
                             
                             <h3>e-litmus</h3>
                             <div class='desc'>
-                                    eLitmus Evaluation Private Limited is an Indian company that helps companies in hiring employees for entry-level jobs. It was founded in the year 2005 by former employees of Infosys. Some of the Fortune 500 companies hire their employees through the pH test conducted by eLitmus.    
+                                    eLitmus Evaluation Private Limited is an Indian company that helps companies in hiring employees for entry-level jobs.  
                             </div>
                           </div>
                           <div class='infoBox'>
                         
                             <h3>CoCubes</h3>
                             <div class='desc'>
-                                    Our vision is to ensure that everyone in the country gets an equal opportunity to build a career. We are the visionaries of this space with a strong growth trajectory and an exciting firm to be with. CoCubes is part of Aon plc (NYSE: AON)
+                                    Our vision is to ensure that everyone in the country gets an equal opportunity to build a career.   
                             </div>
                           </div>
-                      </div>
+                      </div></section>
                       <!--content starts-->
-                      <div class='one-column'>
-                            <h3>Job Site</h3>
-                            <div class="desc">
-                                    Whether you are looking for your first job or researching what you will need to do to land your dream job in the future, our job descriptions will help point you in the right direction.
-                            </div>
-                          </div>
+                      
                           <!--sighnup-->
-                          <div id="2" class='one-column'>
+                          <div id="login" class="one-column" >
                                 <h3>Job Site login</h3>
-                              <form action="index.html">  <div class="desc">
-                                        <center>
-                                                   <p>
-                                                        <label>username</label>
-                                                        <input id="myInput" type="text" required>
-                                                    </p>
-                                                    <p>
-                                                    <label>password</label>
-                                                    <input id="myInput" type="password" required>
-                                                </p>
-                                                <p>
-                                                      <div class="inner">  <form action="intro.html">
+                               <div class="desc">
+                                        
+                                                    <h4>  <label>username</label>
+                                                             <input  type="text" >
+                                                   </h4>  
+                                                         <h4> <label>password</label>
+                                                                <input  type="password" required>
+                                                         </h4>
+                                                   
+                                                         <h4> 
                                                             <button type="submit" class="msgBtn" onClick="return false;" >login</button>
-                                                </form></div>
-                                                <div class="inner"> 
-                                                     <form action="hello.html">
-                                                        <input  type="submit" value="signup">
-                                                        </form></div>
-                                                        <div class="inner">
-                                                                <button onclick="document.getElementById('myInput').value = ''">Clear input field</button>
+                                                         </h4> 
+                                                         <h4> 
+                                                                <input  type="submit" value="signup">
+                                                            </h4> 
                                                                
-                                                        </div>
-                                           
-                                    </p>
-                                    </center>  
-                                </div></form>
+                                                        <h4>
+                                                            <button onclick="document.getElementById('myInput').value = ''">Clear input field</button>
+                                                        </h4> 
+                                                
+                                    
+                                </div>
                               </div>
                               <!--Learning-->
-                              <section class='content' id="3">
-                                    <div class='infoBox' >
-                                                
-                                           
-                                            <div class='desc'>
-                                                    <a href="https://www.w3schools.com/html/"> <img src="htmlc.jpeg"> </a>
-                                                     
-                                                                </div>
-                                                </div>    
-                                            </div>
-                                        <div class='infoBox'  >
-                                                
-                                                <a href="https://www.tutorialspoint.com/java/"><h3>JAVA</h3></a>
-                                                <div class='desc' id="pic">
-                                                    <img src="java1.jpeg" id="pic">                    </div>
-                                                    </div>    
-                                                </div>
+                              <section class='content' id="features">
+                                  <div class="features">
+                                    <div class='infoBox'>
+                                         <a href="https://www.w3schools.com/html/"><img src="htmlc.jpeg" alt="" >  </a>                     
+                                    </div>
+                                          <div class='infoBox'  >     
+                                           <a href="https://www.tutorialspoint.com/java/">  <img src="java1.jpeg" alt="" > </a>
+                                          </div>
+                                             <div class='infoBox' >
+                                                <a href="https://www.lynda.com/">  <img src="learn1.jpeg" alt=""> </a>     
                                               </div>
-                                              <div class='infoBox' id="pic">
-                                              
-                                                <a href="https://www.lynda.com/"> <h3> LEARN</h3></a>
-                                                <div class='desc' id="pic">
-                                                        <img src="learn1.jpeg">        </div>
-                                                    </div>                       
-                                                </div>
-                                              </div>
-                                            </div>
-  
- <!--extra-->
- <section class='content' id="1">
-        <div class='features'>
-            <div class='infoBox'>
-        <h3>Latest Career Article</h3>  
-        <div class="desc">
-            <p>5 Reasons Why Employee Who Love What They Are Do The Best</p>
-          <center><a href="https://www.monsterindia.com/career-advice/5-reasons-why-employees-who-love-what-they-do-are-the-happiest-6459.html"><input type="button" value="Read More"></a></center>  
-        </div>
-        </div>
-        <div class='infoBox'>
-                <h3>HOW TO?</h3>  
-                <div class="desc">
-                    <p>HOW TO :Charge Your Career Through Endorsement</p>
-                    <center><a href="https://www.monsterindia.com/career-advice/how-to-charge-your-career-through-endorsements-6317.html"><input type="button" value="Read More"></a></center>
-                </div>
-                </div><div class='infoBox'>
-                        <h3>CV Guide</h3>  
-                        <div class="desc">
-                            <p>A Complete Guide On CV Preparation</p>
-                            <center><a href="https://www.monsterindia.com/career-advice/a-complete-guide-on-cv-preparation-412.html"><input type="button" value="Read More"></a></center>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                        <!--extra ends-->
-
+                                            </div></section>
 <!--feedback-->
-
-<div id="4" class='one-column'>
-      <a href="feedback.html">  <h3>Feedback</h3></a>
-     <center>   <img src="feedback.jpeg">
-     </center>        <div>
-
+<div id="feedback" class='one-column'>
+      <a href="feedback.html"> <img src="feedback-Banner.jpeg" alt="" style="width:100%"> </a>
+            </div>
 <!--feedback ends-->
-
-
-
                        <!-- Footer Starts -->
         <footer id="5">
                 <nav>
@@ -184,4 +124,3 @@
        
     </body>
 </html>
-       
